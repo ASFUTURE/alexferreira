@@ -1,0 +1,118 @@
+.section-menu{
+	width: 100%;
+	height: 600px
+}
+body{
+	background: #000000;
+	color: #ffffff;
+}
+section{
+	padding-top: 9px;
+}
+.border_menu{
+	border-top: 1px solid #DC3543;
+	border-bottom: 1px solid #DC3543;
+}
+.fab,.fa-map-marker-alt,.fa-envelope{
+	font-size: 30px;
+}
+.fa-desktop,.fa-cogs,.fa-mobile-alt{
+	font-size: 100px;
+	color:#AAD922;
+}
+.email{
+	font-size:17px; 
+}
+.whatsapp{
+	font-size: 16px;
+}
+.name{
+	color: #DC3543;
+}
+hr{
+	background-color:#fff;
+}
+.botao-algo-mais{
+	background-color:#861388;
+}
+.fa-envelope-open,.fa-envelope{
+	color:#861388;
+}
+.card-body{
+	background-color: #000000;
+}
+.card1,.card2,.card3{
+	font-size: 18px;
+}
+.jumbotron{
+	background-color:#000000;
+	border: 1px solid #AAD922;
+}
+.modal-content{
+	border:1px solid #AAD922 ;
+}
+.card{
+	border:none;
+}
+.card_1,.card_3,.card_2,.section-habilidade{
+	border: 1px solid #AAD922;
+}
+
+#html5{
+	display: none;
+}
+#css{
+	display: none;
+}
+#javascript{
+	display: none;
+}
+#php{
+	display: none;
+}
+#mysql{
+	display: none;
+}
+#csharp{
+	display: none;
+}
+#boostrap{
+	display: none;
+}
+#wordpress{
+	display: none;
+}
+@media(min-width: 276px) and (max-width: 850px){
+.fa-envelope{
+	font-size: 25px;
+}
+.email{
+	font-size: 15px;
+}
+
+
+}
+@media(min-width: 1381px) and (max-width: 1440px){
+	.slow_menu{
+	position:relative;
+	left: 600px;
+	}
+}
+@media(min-width: 990px) and (max-width: 1380px){
+	.slow_menu{
+	position:relative;
+	left: 600px;
+	}
+}
+@media(min-width: 990px) and (max-width: 1280px){
+	.slow_menu{
+	position:relative;
+	left: 500px;
+	}
+}
+@media(min-width: 990px) and (max-width: 1180px){
+	.slow_menu{
+	position:relative;
+	left: 400px;
+	}
+}
